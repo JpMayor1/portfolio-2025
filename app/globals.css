@@ -1,26 +1,50 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  /* Fonts */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* Primary Palette - Navy Blue */
+  --color-primary-50: #e8efff;
+  --color-primary-100: #c5d6ff;
+  --color-primary-200: #a2bcff;
+  --color-primary-300: #7fa2ff;
+  --color-primary-400: #5c89ff;
+  --color-primary-500: #3a70ff; /* Slight neon navy */
+  --color-primary-600: #2a53cc;
+  --color-primary-700: #1b3799;
+  --color-primary-800: #0c1c66;
+  --color-primary-900: #050f33;
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* True Navy Core */
+  --color-navy-500: #1e0342;
+  --color-navy-600: #0e1e3a;
+  --color-navy-700: #0a162c;
+
+  /* Accent Colors (futuristic cyan) */
+  --color-accent-100: #dffafe;
+  --color-accent-200: #b8f2ff;
+  --color-accent-300: #8ae9ff;
+  --color-accent-400: #5ce1ff;
+  --color-accent-500: #26d8ff;
+  --color-accent-600: #00c5eb;
+  --color-accent-700: #009ab8;
+
+  /* Background */
+  --color-bg: #0a0f1f; /* deep navy */
+  --color-bg-soft: #0f162b; /* slightly lifted */
+  --color-bg-card: #11182e; /* card background */
+
+  /* Text */
+  --color-text: #e6ecff;
+  --color-text-muted: #a9b7d6;
+
+  /* Borders */
+  --color-border: #1a2339;
+
+  /* Radii */
+  --radius-soft: 8px;
+  --radius-card: 16px;
+  --radius-full: 9999px;
 }
