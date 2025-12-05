@@ -70,6 +70,7 @@ export default function Hero() {
 
   return (
     <div
+      id="hero"
       ref={heroRef}
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >

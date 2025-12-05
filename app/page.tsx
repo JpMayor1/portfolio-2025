@@ -5,7 +5,6 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import RightSidebar from './components/RightSidebar';
 import ScrollIndicator from './components/ScrollIndicator';
 import ParticlesBackground from './components/ParticlesBackground';
 
@@ -17,7 +16,6 @@ export default function Home() {
       
       {/* Navigation & UI Elements */}
       <Navbar />
-      <RightSidebar />
       <ScrollIndicator />
 
       {/* Main Content Sections */}
